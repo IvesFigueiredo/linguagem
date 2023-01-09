@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS3</title>
+</head>
+<body>
+    <header>
+        <section>
+        <h1>Guia de CSS</h1>
+        <a href="/Users/ives/Desktop/Ives/Profissional/Curriculo.atualizado/1.Ives.Pinto-CV.REV05.pdf" download="curriculo">Baixar curriculo</a>
+        </section>
+            <section class="cabecalho">
+            <nav>
+                <a href="PP-Index.html">Home</a>
+                <a link href="PP-HTML.html">Guia de HTML5</a>
+                <a link href="link3" target="_blank">Guia de SASS</a>
+                <a link href="../../../Projeto.do.Curso/Projeto/index.html" target="_blank">Meu espaço</a>
+            </nav>
+            </section>
+    </header>
+    <main>
+        <section>
+            <h2>Guia de Referência CSS3</h2>
+            <p>Estilo em cascatas, focado na imagem do site. Aqui iremos abordar maneiras, dicas e formas de trabalhar com CSS atrelado ao HTML. Bons estudos.</p><hr>
+        </section>
+    <ol>
+        <Section>
+            <div>
+                <h3>Há estruturas de incorporação do CSS, Inline, Internos e Externos</h3>
+                <p>O estilo CSS inline é uma forma de implementar a aparência em cada linha específica, assim implementando apenas na linha em que estiver trabalhando.</p>
+                <p>O estilo CSS interno, é uma maneira mais vantajosa comparada a implementação do CSS Inline, uma das vantagens é a organização, pois é uma opção em que pode separar a estrutura HTML da CSS no mesmo programa.</p>
+                <p>Por fim, há maneira mais recomendada entre a citadas acima, que o CSS Externo, pois toda a estrutura CSS é construida em uma outra página, por fim é linkada do HTML para CSS, onde é atribuida as propriedades do CSS na estrutura HTML, deixando assim ambos mais organizados.</p><hr>
+                <p><ins>
+                    <mark>Obeservação:</mark> É necessário atribuir alguns valores para não dar inconsistências no CSS, por exemplo, as acentuções brasileiras e simbolos, sim <strong><code>@charset "UTF-8";</code></strong> é necessário.
+                </ins></p>
+            </div>
+           
+
+            <div>
+                <h3>Guia de Cores:</h3>
+                <li>A tag <strong><code><abbr title="Alterar a coloração de fundo">background-color</abbr></code></strong> Cores de fundo:</li>
+                <p>Se refere a modificar a cor de fundo do site. Sendo ele um estilo (style="") alicado em uma camada seja no <code>body ou footer</code>,
+                <p><strong><code>&lt;body style="background-color: blue;"&gt;</code></strong> - <ins>Sendo que o blue é um valor da propriedade background-color.</ins></p><hr>
+                <li>A tag (<strong><code><abbr title="Alterar a cor de texto">style="color: Valor;"</abbr></code></strong>):</li>
+                <p>É a tag responsável em alterar a cor, muito usando para alterar cor de textos. Exemplo:<br> <strong><code>&lt;h2 style="color: darkred;"&gt;Capítulo 1.2&lt;/h2&gt;</code></strong></p><hr>
+            </div>
+
+            <div>
+                <h3>Guia de Textos</h3>
+                <li>A tag <strong><code><abbr title="Posicionar o alinhamento de conteúdo">style="text-align: VALOR;"</abbr></code></strong></li>
+                <p>Serve para fazer o alinhamento do texto na página web, mas há diversos alinhamentos. Como;</p>
+                    <ul>
+                        <li>justify: Serve para deixar as linhas alinhadas (rente) nas duas extremidades da página.</li>
+                        <li>center: Serve para deixar o texto centralizado</li>
+                        <li>end: Posiciona-se no final do conteúdo.</li>
+                        <li>left: Posiociona-se a esquerda da página web</li>
+                        <li>right: Posiociona-se a direita da página web</li>
+                        <li>start: Posiociona-se no início da página web</li>
+                        
+                    </ul><hr>
+                <li>A tag "<strong><code><abbr title="Alterar o tamanho das letras">font-size: VALORpx;</abbr></code></strong>":</li>
+                <p>Serve para alterar o tamanho das letras.</p><hr>
+                <li>A tag "<strong><code><abbr title="Alterar a fonte das letras">font-family: FONTE-DE-LETRA;</abbr></code></strong>":</li>
+                <p>Serve para trocar a fonte das letras. Fonte essas instaladas na biblioteca do programa VSCode.</p><hr>
+                <li>A tag "<strong><code><abbr title="Adicionar uma linha horizonta">style="text-decoration:POSIÇÂO-DA-LINHA;</abbr></code></strong>"</li>
+                <p>Serve para inserir uma linha horizontal, afim de decorar um determinado conteúdo desejado, podendo ser um;</p>
+                <ul>
+                    <li>underline: Linha horizontal abaixo das palavras</li>
+                    <li>line-through: Linha horizontal no meio das palavras</li>
+                    <li>overline: Linha horizontal acima das palavras</li>
+                </ul><hr>
+            </div>
+            <div>
+                <h3>Guia de Seletores</h3>
+                <p>Há como seletores, podendo ser selecionado a partir de algumas tags, como, h1...h6, parágrafos, listas, div's, section's, body, main, footer, header, aside, article, nav's, links, e outros. Como também utilizando seus indicadores, personalizando seus respectivos seletores, como id e class, e seus pseudos; pseudoclass e pseudoelemento</p>
+                <li>Personalizando apenas os conteúdos H1, por exemplo, <strong><code><abbr title="Sintaxe padrão na personalização de um seletor">h1{ ~personalização que deseja criar, lembrando, apenas nas tags h1~ }</abbr></code></strong></li>
+                <p>Configurando seletores, é simples de modo geral, conforme a sintaxe acima, basta seleciona-lo e abrir/fechar chaves e aplicando a personalização desejada entre as chaves.</p><hr>
+                <li>Utilizando identificação, <strong><code><abbr title="Usado para identificar um determinado seletor">id</abbr></code></strong> </li>
+                <p>É possível diferenciar um determinado elemento h1 de um outro h1 e aplicar estilo diferente dos demais, utilizando um identificador. <mark>Observação no HTML é id / no CSS é #.</mark> Por exemplo;</p>
+                <p>Sintaxe no HTML:<br><code>&lt;h1 id="principal"&gt;TEXTO EXEMPLICATIVO&lt;/h1&gt;</code></p>
+                <p>Sintaxe no CSS:<br> <code>#principal{ ~personalização de estilo que deseja~ }</code></p><hr>
+            </div>
+            <div>
+                <li>Utilizando as classes, <strong><code><abbr title="Usado para identificar um conjunto de seletores">class</abbr></code></strong>;</li>
+                <p>Também com o intuito de diferenciar alguns elementos, podemos personalizar não apenas um, mas sim vários elementos, com isso utilizamos o identificador <strong><code>class</code></strong>. <mark>Observação no HTML é class / no CSS é . </mark>. Conforme exemplo abaixo;</p>
+                <p>Sintaxe no HTML:<br><code>&lt;h3 class="guias"&gt;TEXTO EXEMPLICATIVO&lt;/h3&gt;</code></p>
+                <p>Sintaxe no CSS:<br> <code>.guias{ ~personalização de estilo que deseja~ }</code></p><hr>
+            </div>
+            <p>Utilizando os pseudos: pseudoclass e os pseudoelemento</p>
+            <div>
+                <li>Utilizando os <abbr title="Utiliza-se :">pseudo-classes</abbr>;</li>
+                <p>A pseudo-classe deve está relacionada a um estado de um determinado elemento ou a uma classe, no caso, se ele está ativo, se está marcado, se está habilitado, etc.  <mark>Observação, no CSS é identificada com o :</mark>. A seguir veremos algumas pseudo-classes muito utilizadas.</p>
+                <ul>
+                    <li>hover: <span class="descricao-lista">Para quando passar o cursor do mouse por cima, criar um estado personalizado.</span></li>
+                    <li>visited: <span class="descricao-lista">Para quando o site já ter sido visitado apresentar um estado personalizado.</span></li>
+                    <li>active: <span class="descricao-lista">É acionado no momento em que é "clicado", acionando assim um estado personalizado desejado.</span></li>
+                </ul>
+            </div><hr>
+            <div>
+                <li>Utilizando o <abbr title="Utiliza-se ::"><strong>pseudo-elemento</strong></abbr></li>
+                <p>O pseudo-elemento é muito utilizado para personalizar as periferias do conteúdo. onde se utiliza o <code>before/after</code>. É possível também ser aplicado em classes, não apenas em elementos. <mark>Obervação, no CSS utiliza-se o ::</mark> A seguir alguns pseudo-elementos muito utilizadas;</p>
+                <ul>
+                    <li>before: <span class="descricao-lista">Tudo antes do conteúdo selecionado.</span></li>
+                    <li>after: <span class="descricao-lista">Para tudo que vem depois do conteúdo selecionado.</span></li>
+                </ul>
+            </div><hr>
+            <div>
+                <li>Utilizando o seletor <abbr title="Seletor > elemento"><strong>filho</strong></abbr>:</li>
+                <p>É também uma forma de selecionar um determinado elemento que esteja dentro de um seletor, desta forma a seleção também é específica, pois só abrange os elementos, de sua escolha, que estejam dentro do seletor, também de sua escolha. <mark>Observação, utilizando o sinal de 'maior que'(&gt;)</mark>. Conforme o exemplo abaixo;</p>
+            </div><hr>
+            <div>
+                <h3>Guia Modelo de Caixas</h3>
+                <p>Na finalidade de organização, se refere ao box-model em que possibilita uma formação de caixas dentro de outra caixa que por sua vez pode ser inserida em mais outra caixa e assim consecutivamente, esse modelo chama-se de "<abbr title="Caixa dentro de outras caixas">aninhamento</abbr>". Também é tratado tudo referente ao box-sizing, do qual se tem como sua estrutura de dentro para fora, o conteúdo, padding, border, outline e margin, respectivamente.</p>
+                <h4>Anatomia de Caixa</h4>
+                <p>Tudo que é está em um site são conjuntos de caixas que estam inseridas os conteúdos, essas caixas tem suas medidas que podem ser personalizadas, vamos ver a anatomia, estruturas das caixas;</p>
+                <ul>
+                    <li>height: <span class="descricao-lista">Altura da caixa.</span></li>
+                    <li>width: <span class="descricao-lista">Largura da caixa.</span></li>
+                    <li>conteúdo: <span class="descricao-lista">Como o próprio nome diz, é a informação que queremos apresentar.</span></li>
+                    <li>padding: <span class="descricao-lista">É o espaço entre o conteúdo e a borda (border), espaço interno.</span></li>
+                    <li>border: <span class="descricao-lista">É a borda, que é uma linha que circunda o conteúdo</span></li>
+                    <li>outline: <span class="descricao-lista">É o contorno, pelo lado externo da borda, caso seja necessário.</span></li>
+                    <li>margin: <span class="descricao-lista">É o espaço externo da caixa, ao redor da borda, para que a borda da caixa não tenha contato com outras bordas de outras caixas.</span></li>
+                </ul>
+                <h4>Tipos de Caixa</h4>
+                <p>Box-level: Que é uma estrutura baseada em caixa que é gerada na linha abaixo de outra caixa e assim sucessivamente. Que tem como largura a largura da tela por inteiro.<br> Por exemplo;</p>
+                <ul type="square">
+                    <li><code>&lt;div&gt;</code></li>
+                    <li><code>&lt;h1-h6&gt;</code></li>
+                    <li><code>&lt;p&gt;</code></li>
+                    <li><code>&lt;main&gt;</code></li>
+                    <li><code>&lt;header&gt;</code></li>
+                    <li><code>&lt;nav&gt;</code></li>
+                    <li><code>&lt;article&gt;</code></li>
+                    <li><code>&lt;aside&gt;</code></li>
+                    <li><code>&lt;footer&gt;</code></li>
+                    <li><code>&lt;form&gt;</code></li>
+                    <li><code>&lt;video&gt;</code></li>
+                </ul> 
+                
+                <p>Inline-level: Que tem como estrutura uma caixa ao lado de outra caixa. Não há a quebra de linha. Que tem como largura apenas o que é necessário.<br> Por exemplo;</p> 
+                <ul type="square">
+                    <li><code>&lt;span&gt;</code></li>
+                    <li><code>&lt;a&gt;</code></li>
+                    <li><code>&lt;code&gt;</code></li>
+                    <li><code>&lt;small&gt;</code></li>
+                    <li><code>&lt;strong&gt;</code></li>
+                    <li><code>&lt;em&gt;</code></li>
+                    <li><code>&lt;sup&gt;-&lt;sub&gt;</code></li>
+                    <li><code>&lt;label&gt;</code></li>
+                    <li><code>&lt;button&gt;</code></li>
+                    <li><code>&lt;input&gt;</code></li>
+                    <li><code>&lt;select&gt;</code></li>
+                </ul>
+            </div><hr>
+
+        </Section>
+    </ol>
+    </main>
+</body>
+</html>

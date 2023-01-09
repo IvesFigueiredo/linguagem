@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+button{
+    cursor: pointer;
+}
+
+a {
+    color: #8b8b8beb;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #E1BB34;
+}
+
+.cabecalho{
+    display: inline;
+    text-align: start;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #0D0D0D 0,5%, #071A26, #144E73 , #5687A6);
+    
+    background-attachment: scroll;
+    min-width: 100px;
+    max-width: 900px;
+    margin: auto; /* Serve para centralizar a caixa no meio automaticamente*/
+    padding: 15px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+main{
+    background-color: none;
+    min-width: 100px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Cinzel Decorative';
+    color: #8b8b8beb;
+    font-size: 2em;
+}
+
+h2{
+    font-family: 'Cinzel Decorative';
+    font-size: 1.5em;
+    color: #5687A6;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Cinzel Decorative';
+    color: #E1BB34;
+    font-size: 1.3em;
+}
+
+h4{
+    font-family: 'Cinzel Decorative';
+    font-size: 1em;
+    color: #F2F2F2;
+}
+
+h5{
+    color: #F2F2F2;
+}
+
+p{
+    font-family: 'Cinzel';
+    color: #F2F2F2;
+    text-indent: 20px;
+}
+
+li{
+    font-family: 'Cinzel';
+    color: #F2F2F2;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+dl{
+    color: #F2F2F2;
+}
+blockquote{
+    color: #F2F2F2;
+}
+
+abbr:hover{
+    text-decoration: underline;
+    color: #E1BB34;
+}
+.descricao-lista{
+    font-size: 0.7em;
+    font-family: 'Cinzel';
+}
+
+
+
+
+/* Color Theme Swatches in Hex */
+.color-theme_IMG_0886-1-hex { color: #144E73; }
+.color-theme_IMG_0886-2-hex { color: #071A26; }
+.color-theme_IMG_0886-3-hex { color: #5687A6; }
+.color-theme_IMG_0886-4-hex { color: #F2F2F2; }
+.color-theme_IMG_0886-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_IMG_0886-1-rgba { color: rgba(20, 78, 115, 1); }
+.color-theme_IMG_0886-2-rgba { color: rgba(7, 26, 38, 1); }
+.color-theme_IMG_0886-3-rgba { color: rgba(86, 135, 166, 1); }
+.color-theme_IMG_0886-4-rgba { color: rgba(242, 242, 242, 1); }
+.color-theme_IMG_0886-5-rgba { color: rgba(13, 13, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_IMG_0886-1-hsla { color: hsla(203, 70, 26, 1); }
+.color-theme_IMG_0886-2-hsla { color: hsla(203, 68, 8, 1); }
+.color-theme_IMG_0886-3-hsla { color: hsla(203, 31, 49, 1); }
+.color-theme_IMG_0886-4-hsla { color: hsla(0, 0, 94, 1); }
+.color-theme_IMG_0886-5-hsla { color: hsla(0, 0, 5, 1); }
