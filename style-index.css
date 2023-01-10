@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
 :root{
---cor01: #144E73;
---cor02: #071A26;
---cor03: #5687A6;
---cor03: #F2F2F2;
---cor04: #0D0D0D;
+--cor01: #F2F2F2;
+--cor02: #5687A6;
+--cor03: #144E73;
+--cor04: #071A26;
+--cor05: #0D0D0D;
 
 --font-padrao: Arial, Helvetica, sans-serif;
 --font-destaque: 'Cinzel' , Arial;
@@ -26,6 +26,14 @@ body {
     color: var(--cor04);
 }
 
-
+header{
+    background-color: var(--cor04);
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
 
 
