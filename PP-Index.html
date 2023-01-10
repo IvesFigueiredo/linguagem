@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style-index.css">
     <title>Linguagens</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
 :root{
@@ -16,9 +16,11 @@
 --cor03: #144E73;
 --cor04: #071A26;
 --cor05: #0D0D0D;
+--cor06: rgb(181, 137, 26);
 
 --font-padrao: Arial, Helvetica, sans-serif;
 --font-destaque: 'Cinzel' , Arial;
+--font-especial: 'Cinzel Decorative', Arial;
 
 }
 
@@ -31,44 +33,141 @@ body {
     font-family: var(--font-padrao);
     font-weight: normal;
     color: var(--cor04);
+    background-color: var(--cor02);
 }
 
 header{
     background-color: var(--cor04);
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
-    font-family: var(--font-destaque);
+    font-family: var(--font-especial);
     font-weight: normal;
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
+}
+
+header > h1 {
+    color:var(--cor01);
+    font-weight: normal;
+    margin: 20px 40px 40px 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.618);
+}
+
+header > p {
+    color: var(--cor01);
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 32px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+}
+
+nav {
+    background-color: var(--cor05);
+    text-align: left;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.448);
+}
+
+nav > a {
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    color: var(--cor06);
+    text-decoration: none;
+    padding: 8px 10px 10px 10px;
+    transition-duration: 0.3s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor05);
+    background-color: var(--cor02)  ;
+}
+
+main {
+    background-color: var(--cor01);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.448);
+}
+
+main h2 {
+    font-family: var(--font-destaque);
+    font-size: 1.6em;
+    color: var(--cor03);
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+main h3 {
+    color: var(--cor06);
+    font-family: var(--font-especial);
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 20px 10px 5px 10px;
+    text-decoration: underline;
+}
+
+main h4 {
+    padding: 15px 0px 0px 0px;
+}
+
+main p {
+    margin: 15px 0px;
+    color: var(--cor05);
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font-padrao);
+    padding: 5px;
 }
     </style>
 </head>
 <body>
     <header>
         <h1>Guia de linguagens</h1>
+        <p>Projeto elaborado com o intuito de exercitar e aprimorar os conhecimentos referente a programação em geral, desde as primeiras linguagens assimiladas até o estudo atual.</p>
+    </header>
             <nav>
                 <a href="PP-HTML.html">Guia de HTML</a>
                 <a link href="PP-CSS.html">Guia de CSS</a>
-                <a link href="#" target="_blank">Guia de SASS</a>
+                <a link href="#">Guia de JavaScript</a>
                 <a link href="#" target="_blank">Meu espaço</a>
                 <a href="anexos/1.Ives.Pinto-CV.REV05.pdf" download="curriculo">Baixar curriculo</a>
             </nav>
-    </header>
+    
     <main>
         <article>
-            <h2>Linguagens de programação</h2>
+            <h2>Linguagem Client-Side</h2>
                 <h3>HTML5</h3>
-                    <p><b>Sumário do Guia:</b><br>Comandos e tags essenciais para desenvolver uma linguagem HTML, inciando com o sumário onde há maior explicação sobre html, head, title e body, juntamente com exemplos.<br><b>Informações do Guia:</b><br>Verá também maiores explicações referente a base, meta, link, style e script.</p>
+                    <h4>Sumário do Guia:</h4>
+                        <p>Comandos e tags essenciais para desenvolver uma linguagem HTML, inciando com o sumário onde há maior explicação sobre html, head, title e body, juntamente com exemplos.</p>
+                    <h4>Informações do Guia:</h4>
+                    <p>Verá também maiores explicações referente a base, meta, link, style e script.</p>
                 <a link href="PP-HTML.html" target="_blank">Guia de HTML5</a>
            
                 <h3>CSS3</h3>
-                    <p><b>CSS3:</b><br></p>
+                    <h4>CSS3:</h4>
                 <a link href="PP-CSS.html">Guia de CSS3</a>
             
-                <h3>Artigo 3</h3>
+                <h3>JavaScript</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi animi inventore voluptate, quidem asperiores ratione praesentium ea quibusdam, repellendus provident, dolorum optio incidunt. Deserunt est harum voluptatem facere aliquid?</p>
-                <a link href="leia-mais3">Leia mais</a><hr>
+                <a link href="#">Leia mais</a><hr>
         
             <ul>
                 <li><a link href="#">Página01</a></li>
